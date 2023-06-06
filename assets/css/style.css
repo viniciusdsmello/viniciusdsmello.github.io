@@ -735,8 +735,7 @@ div#particles-js {
 
 .project-card {
   position: relative;
-  /* overflow: hidden; */
-  overflow: visible;
+  overflow: hidden;
   border-radius: var(--radius-12);
   box-shadow: 2px 4px 6px hsla(0, 0%, 0%, 0.2);
 }
@@ -764,6 +763,7 @@ div#particles-js {
 
 .project-card .card-title {
   margin-bottom: 10px;
+  max-width: fit-content;
 }
 
 .project-card :is(.card-title, .publish-date) {
